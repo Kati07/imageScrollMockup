@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #F2F2F2;
+}
+
+.container .mac{
+    position: absolute;
+    top: 210px;
+    left: 500px;
+    width: 606px;
+    height: 489px;
+}
+
+.container .mac .imgbx{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 555px;
+    height: 312px;
+    background: url(img/desktopWebsite.jpg);
+    background-size: 100%;
+    background-position: top;
+    transition: 15s linear;
+}
+
+.container .mac:hover .imgbx{
+    background-position: bottom;
+}
+
+.container .macbook{
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 609px;
+    height: 362px;
+}
+
+.container .macbook .imgbx{
+    position: absolute;
+    top: 6%;
+    left: 12%;
+    background: yellow;
+    width: 463px;
+    height: 288px;
+    background: url(img/desktopWebsite.jpg);
+    background-size: 100%;
+    background-position: top;
+    transition: 15s linear;
+}
+
+.container .macbook:hover .imgbx{
+    background-position: bottom;
+}
+
+
+.container .iphone{
+    position: absolute;
+    top: 400px;
+    left: 390px;
+    width: 245px;
+    height: 383px;
+    z-index: 2;
+}
+
+.container .iphone .imgbx{
+    position: absolute;
+    top: 12%;
+    left: 43px;
+    width: 159px;
+    height: 284px;
+    background: url(img/mobileWebsite.jpg);
+    background-size: 100%;
+    background-position: top;
+    transition: 15s linear;
+}
+
+.container .iphone:hover .imgbx{
+    background-position: bottom;
+}
